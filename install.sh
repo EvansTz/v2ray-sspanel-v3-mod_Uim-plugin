@@ -475,7 +475,7 @@ services:
         max-file: "3"
 
   caddy:
-    image: hulisang/v2ray_v3:caddy
+    image: evanst/v2ray-sspanel-v3-mod_uim-plugin:caddy
     restart: always
     environment:
       - ACME_AGREE=true
@@ -560,7 +560,7 @@ services:
         max-file: "3"
 
   caddy:
-    image: hulisang/v2ray_v3:caddy
+    image: evanst/v2ray-sspanel-v3-mod_uim-plugin:caddy
     restart: always
     environment:
       - ACME_AGREE=true
