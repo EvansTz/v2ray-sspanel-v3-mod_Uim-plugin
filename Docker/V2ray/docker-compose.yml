@@ -2,7 +2,7 @@ version: '2'
 
 services:
   v2ray:
-    image: evanst/v2ray-sspanel-v3-mod_uim-plugin:go_pay
+    image: evanst/v2ray_v3:go_pay
     restart: always
     network_mode: "host"
     environment:
